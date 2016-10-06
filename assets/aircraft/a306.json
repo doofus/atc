@@ -11,22 +11,22 @@
     "lahso": 7,
     "recat": "C"
   },
-  "ceiling": 37000,
+  "ceiling": 41000,
   "rate": {
-    "climb":      3200,
-    "descent":    1500,
+    "climb":      3500,
+    "descent":    2000,
     "accelerate": 8,
     "decelerate": 4
   },
   "runway": {
-    "takeoff": 2.24,
-    "landing": 1.532
+    "takeoff": 2.700,
+    "landing": 1.536
   },
   "speed":{
-    "min":     160,
-    "landing": 139,
-    "cruise":  470,
-    "cruiseM": 0.79,
+    "min":     110,
+    "landing": 125,
+    "cruise":  472,
+    "cruiseM": null,
     "max":     484,
     "maxM":    0.82
   },
