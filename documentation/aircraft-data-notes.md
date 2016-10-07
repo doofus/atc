@@ -25,7 +25,7 @@ descriptions of the data fields.
 
 # Aircraft
 
-## A124
+## [A124](../assets/aircraft/a124.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as null
@@ -39,7 +39,7 @@ descriptions of the data fields.
 
 ## A148
 
-The Eurocontrol Database has no entry for the Antonov An-148.
+**The Eurocontrol Database has no entry for the Antonov An-148.**
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `weightclass` : updated to "M", [doc8643.com](https://doc8643.com/aircraft/A148)
