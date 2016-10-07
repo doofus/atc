@@ -35,7 +35,7 @@ Link for useful aircraft performance data: https://doc8643.com/index
   },
   "speed":{
     "min":     135,   - Stall Speed² (minimum speed)
-    "landing": 150,   - Landing speed² (at threshold)
+    "landing": 150,   - Landing speed² (at threshold) or Approach Speed (Vat); usually 1.3 times the Stall Speed
     "cruise":  492    - Typical cruise speed², knots (a/c will fly at slower of these speeds)
     "cruiseM": 0.81,  - Typical cruise speed², mach  (a/c will fly at slower of these speeds) if unavailable, put null
     "max":     507,   - Never-Exceed speed² (Vne), knots. Fastest possible speed before structural damage.
