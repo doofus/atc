@@ -1,33 +1,33 @@
 {
-  "name": "Airbus A318",
+  "name": "Airbus A318-100",
   "icao": "A318",
   "engines": {
     "number": 2,
     "type": "J"
   },
-  "weightclass": "L",
+  "weightclass": "M",
   "category": {
     "srs": 3,
     "lahso": 7,
-    "recat": "D"
+    "recat": "C"
   },
   "ceiling": 39000,
   "rate": {
-    "climb":      3500,
-    "descent":    3000,
+    "climb":      2000,
+    "descent":    1500,
     "accelerate": 7,
     "decelerate": 4
   },
   "runway": {
-    "takeoff": 1.700,
-    "landing": 1.400
+    "takeoff": 1.400,
+    "landing": 1.300
   },
   "speed":{
-    "min":     110,
-    "landing": 120,
-    "cruise":  470,
-    "cruiseM": null,
-    "max":     484,
+    "min":     96,
+    "landing": 125,
+    "cruise":  460,
+    "cruiseM": 0.79,
+    "max":     467,
     "maxM":    0.82
   },
   "capability": {

@@ -16,7 +16,8 @@ If any gaps are still unresolved, then they should be annotated in this file.
 
 ## Climb / Descent Rates
 
-Climb rates should use
+Climb rates (`rate.climb`)should use the climb rate given for the "Climb to FL150" phase of flight.
+Descent rates (`rate.descent`) should use the descent rate given for the "Approach" phase of flight.
 
 # Data Format
 
@@ -37,7 +38,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## A148
+## [A148](../assets/aircraft/a148.json)
 
 **The Eurocontrol Database has no entry for the Antonov An-148.**
 
@@ -62,7 +63,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## A306
+## [A306](../assets/aircraft/a306.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 7
@@ -74,7 +75,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## A310
+## [A310](../assets/aircraft/a310.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 7
@@ -83,5 +84,17 @@ descriptions of the data fields.
 - `speed.min` : back-calculated from Approach Speed
 - `speed.max` : unavailable, left as 487
 - `speed.maxM` : left as 0.84, [EASA TCDS](https://www.easa.europa.eu/system/files/dfu/TCDS_EASA_A_172_AIRBUS_A300_A310_A300-600_Iss_01_20140430.pdf)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A318](../assets/aircraft/a318.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 4
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : updated to 467, [BA](http://www.britishairways.com/en-gb/information/about-ba/fleet-facts/airbus-318-100
+)
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
