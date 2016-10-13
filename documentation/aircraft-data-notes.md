@@ -111,7 +111,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [A320](../assets/aircraft/A320.json)
+## [A320](../assets/aircraft/a320.json)
 
 **Two variants exist: A320-100 and A320-200. Very few A320-100 models exist. Assuming data pertains to A320-200.**
 
@@ -125,7 +125,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [A321](../assets/aircraft/A321.json)
+## [A321](../assets/aircraft/a321.json)
 
 **Two variants exist: A321-100 and A321-200. Assuming data pertains to A320-200.**
 
@@ -139,7 +139,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [A332](../assets/aircraft/A332.json)
+## [A332](../assets/aircraft/a332.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 8
@@ -151,7 +151,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [A333](../assets/aircraft/A333.json)
+## [A333](../assets/aircraft/a333.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 8
@@ -163,7 +163,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [A342](../assets/aircraft/A342.json)
+## [A342](../assets/aircraft/a342.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 9
@@ -175,7 +175,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [A343](../assets/aircraft/A343.json)
+## [A343](../assets/aircraft/a343.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 9
@@ -187,7 +187,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [A345](../assets/aircraft/A345.json)
+## [A345](../assets/aircraft/a345.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 9
@@ -199,7 +199,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [A346](../assets/aircraft/A346.json)
+## [A346](../assets/aircraft/a346.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 9
@@ -211,7 +211,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [A359](../assets/aircraft/A359.json)
+## [A359](../assets/aircraft/a359.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 9
@@ -224,7 +224,7 @@ descriptions of the data fields.
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [A388](../assets/aircraft/A388.json)
+## [A388](../assets/aircraft/a388.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 10
