@@ -236,3 +236,15 @@ descriptions of the data fields.
 - `speed.maxM` : updated to 0.89, [Airbus A380 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a380family/specifications/)
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
+
+## [AN12](../assets/aircraft/an12.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as null
+- `rate.accelerate` : unavailable, left as 5
+- `rate.decelerate` : unavailable, left as 4
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : updated to 348, [Global Security](http://www.globalsecurity.org/military/world/russia/an-12-specs.htm)
+- `speed.maxM` : unavailable, left as null
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true

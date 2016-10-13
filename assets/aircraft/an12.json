@@ -1,33 +1,33 @@
 {
-  "name": "Antonov 12",
+  "name": "Antonov An-12",
   "icao": "AN12",
   "engines": {
     "number": 4,
     "type": "T"
   },
-  "weightclass": "L",
+  "weightclass": "M",
   "category": {
     "srs": 3,
     "lahso": null,
-    "recat": "D"
+    "recat": "C"
   },
-  "ceiling": 39000,
+  "ceiling": 33000,
   "rate": {
-    "climb":      1500,
-    "descent":    1670,
+    "climb":      1000,
+    "descent":    1000,
     "accelerate": 5,
     "decelerate": 4
   },
   "runway": {
-    "takeoff": 1.500,
-    "landing": 1.500
+    "takeoff": 0.700,
+    "landing": 0.500
   },
   "speed":{
-    "min":     115,
-    "landing": 130,
-    "cruise":  361,
+    "min":     94,
+    "landing": 122,
+    "cruise":  310,
     "cruiseM": null,
-    "max":     420,
+    "max":     348,
     "maxM":    null
   },
   "capability": {
