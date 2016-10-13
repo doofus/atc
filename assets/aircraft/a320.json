@@ -1,34 +1,34 @@
 {
-  "name": "Airbus A320",
+  "name": "Airbus A320-200",
   "icao": "A320",
   "engines": {
     "number": 2,
     "type": "J"
   },
-  "weightclass": "L",
+  "weightclass": "M",
   "category": {
     "srs": 3,
     "lahso": 7,
-    "recat": "D"
+    "recat": "C"
   },
-  "ceiling": 39000,
+  "ceiling": 41000,
   "rate": {
-    "climb":      3500,
-    "descent":    3000,
+    "climb":      2000,
+    "descent":    1500,
     "accelerate": 7,
     "decelerate": 4
   },
   "runway": {
-    "takeoff": 1.900,
-    "landing": 1.400
+    "takeoff": 2.190,
+    "landing": 1.440
   },
   "speed":{
-    "min":     115,
-    "landing": 130,
-    "cruise":  454,
-    "cruiseM": null,
-    "max":     487,
-    "maxM":    0.83
+    "min":     105,
+    "landing": 137,
+    "cruise":  450,
+    "cruiseM": 0.79,
+    "max":     470,
+    "maxM":    0.82
   },
   "capability": {
     "ils": true,

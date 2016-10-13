@@ -1,34 +1,34 @@
 {
-  "name": "Airbus A319",
+  "name": "Airbus A319-100",
   "icao": "A319",
   "engines": {
     "number": 2,
     "type": "J"
   },
-  "weightclass": "L",
+  "weightclass": "M",
   "category": {
     "srs": 3,
     "lahso": 7,
-    "recat": "D"
+    "recat": "C"
   },
   "ceiling": 39000,
   "rate": {
-    "climb":      3500,
-    "descent":    3000,
+    "climb":      2200,
+    "descent":    1500,
     "accelerate": 6.5,
     "decelerate": 4
   },
   "runway": {
-    "takeoff": 1.800,
-    "landing": 1.400
+    "takeoff": 1.750,
+    "landing": 1.350
   },
   "speed":{
-    "min":     110,
-    "landing": 125,
-    "cruise":  454,
-    "cruiseM": null,
-    "max":     487,
-    "maxM":    0.83
+    "min":     100,
+    "landing": 130,
+    "cruise":  450,
+    "cruiseM": 0.79,
+    "max":     470,
+    "maxM":    0.82
   },
   "capability": {
     "ils": true,

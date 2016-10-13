@@ -1,6 +1,6 @@
 {
-  "name": "Airbus A340-600",
-  "icao": "A346",
+  "name": "Airbus A340-500",
+  "icao": "A340-500",
   "engines": {
     "number": 4,
     "type": "J"
@@ -15,19 +15,19 @@
   "rate": {
     "climb":      1200,
     "descent":    1500,
-    "accelerate": 6,
-    "decelerate": 4
+    "accelerate": 4,
+    "decelerate": 3
   },
   "runway": {
-    "takeoff": 3.140,
-    "landing": 2.000
+    "takeoff": 3.200,
+    "landing": 1.920
   },
   "speed":{
-    "min":     115,
-    "landing": 150,
+    "min":     123,
+    "landing": 160,
     "cruise":  480,
     "cruiseM": 0.82,
-    "max":     494,
+    "max":     493,
     "maxM":    0.86
   },
   "capability": {

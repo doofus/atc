@@ -1,32 +1,32 @@
 {
-  "name": "Airbus A330-300",
-  "icao": "A333",
+  "name": "Airbus A340-200",
+  "icao": "A342",
   "engines": {
-    "number": 2,
+    "number": 4,
     "type": "J"
   },
   "weightclass": "H",
   "category": {
     "srs": 3,
-    "lahso": 8,
-    "recat": "C"
+    "lahso": 9,
+    "recat": "D"
   },
   "ceiling": 41000,
   "rate": {
-    "climb":      2000,
+    "climb":      1200,
     "descent":    1500,
-    "accelerate": 6,
-    "decelerate": 3.5
+    "accelerate": 4,
+    "decelerate": 3
   },
   "runway": {
-    "takeoff": 2.300,
-    "landing": 1.700
+    "takeoff": 2.765,
+    "landing": 1.765
   },
   "speed":{
-    "min":     108,
-    "landing": 140,
-    "cruise":  475,
-    "cruiseM": 0.81,
+    "min":     115,
+    "landing": 150,
+    "cruise":  490,
+    "cruiseM": 0.82,
     "max":     493,
     "maxM":    0.86
   },

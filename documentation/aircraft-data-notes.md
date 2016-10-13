@@ -70,7 +70,7 @@ descriptions of the data fields.
 - `rate.accelerate` : unavailable, left as 8
 - `rate.decelerate` : unavailable, left as 4
 - `speed.min` : back-calculated from Approach Speed
-- `speed.max` : unavailable, left as 484
+- `speed.max` : 0.82M @ FL370 = 470
 - `speed.maxM` : left as 0.82, [EASA TCDS](https://www.easa.europa.eu/system/files/dfu/TCDS_EASA_A_172_AIRBUS_A300_A310_A300-600_Iss_01_20140430.pdf)
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
@@ -82,7 +82,7 @@ descriptions of the data fields.
 - `rate.accelerate` : unavailable, left as 4
 - `rate.decelerate` : unavailable, left as 3
 - `speed.min` : back-calculated from Approach Speed
-- `speed.max` : unavailable, left as 487
+- `speed.max` : 0.84M @ FL400 = 482
 - `speed.maxM` : left as 0.84, [EASA TCDS](https://www.easa.europa.eu/system/files/dfu/TCDS_EASA_A_172_AIRBUS_A300_A310_A300-600_Iss_01_20140430.pdf)
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
@@ -94,7 +94,145 @@ descriptions of the data fields.
 - `rate.accelerate` : unavailable, left as 7
 - `rate.decelerate` : unavailable, left as 4
 - `speed.min` : back-calculated from Approach Speed
-- `speed.max` : updated to 467, [BA](http://www.britishairways.com/en-gb/information/about-ba/fleet-facts/airbus-318-100
-)
+- `speed.max` : 0.82M @ FL410 = 470
+- `speed.maxM` : updated to 0.82, [FAA TCDS A28NM Rev. 24](http://www.airweb.faa.gov/Regulatory_and_Guidance_Library/rgMakeModel.nsf/0/57529f07d8f6e3b58625800d0057c1d4/$FILE/A28NM_Rev24.pdf)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A319](../assets/aircraft/a319.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 6.5
+- `rate.decelerate` : unavailable, left as 4
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : 0.82M @ FL390 = 470
+- `speed.maxM` : updated to 0.82, [FAA TCDS A28NM Rev. 24](http://www.airweb.faa.gov/Regulatory_and_Guidance_Library/rgMakeModel.nsf/0/57529f07d8f6e3b58625800d0057c1d4/$FILE/A28NM_Rev24.pdf)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A320](../assets/aircraft/A320.json)
+
+**Two variants exist: A320-100 and A320-200. Very few A320-100 models exist. Assuming data pertains to A320-200.**
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 4
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : 0.82M @ FL410 = 470
+- `speed.maxM` : updated to 0.82, [FAA TCDS A28NM Rev. 24](http://www.airweb.faa.gov/Regulatory_and_Guidance_Library/rgMakeModel.nsf/0/57529f07d8f6e3b58625800d0057c1d4/$FILE/A28NM_Rev24.pdf)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A321](../assets/aircraft/A321.json)
+
+**Two variants exist: A321-100 and A321-200. Assuming data pertains to A320-200.**
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 4
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : 0.82M @ FL410 = 470
+- `speed.maxM` : updated to 0.82, [FAA TCDS A28NM Rev. 24](http://www.airweb.faa.gov/Regulatory_and_Guidance_Library/rgMakeModel.nsf/0/57529f07d8f6e3b58625800d0057c1d4/$FILE/A28NM_Rev24.pdf)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A332](../assets/aircraft/A332.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 8
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 3.5
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : 0.86M @ FL430 = 493
+- `speed.maxM` : updated to 0.86, [Airbus A332 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a330family/a330-200/specifications/)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A333](../assets/aircraft/A333.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 8
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 3.5
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : 0.86M @ FL410 = 493
+- `speed.maxM` : updated to 0.86, [Airbus A333 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a330family/a330-300/specifications/)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A342](../assets/aircraft/A342.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 4
+- `rate.decelerate` : unavailable, left as 3
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : 0.86M @ FL430 = 493
+- `speed.maxM` : updated to 0.86, [Airbus A342 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a340family/a340-200/specifications/)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A343](../assets/aircraft/A343.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 4
+- `rate.decelerate` : unavailable, left as 3
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : 0.86M @ FL430 = 493
+- `speed.maxM` : updated to 0.86, [Airbus A343 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a340family/a340-300/specifications/)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A345](../assets/aircraft/A345.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 4
+- `rate.decelerate` : unavailable, left as 3
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : 0.86M @ FL430 = 493
+- `speed.maxM` : updated to 0.86, [Airbus A345 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a340family/a340-500/specifications/)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A346](../assets/aircraft/A346.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 4
+- `speed.min` : back-calculated from Approach Speed
+- `speed.max` : 0.86M @ FL430 = 493
+- `speed.maxM` : updated to 0.86, [Airbus A346 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a340family/a340-600/specifications/)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A359](../assets/aircraft/A359.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 4
+- `speed.min` : back-calculated from Approach Speed
+- `speed.cruise` : 0.85M @ FL430 = 488
+- `speed.max` : 0.89M @ FL430 = 511
+- `speed.maxM` : updated to 0.89, [Airbus ACJ350 Specifications](http://www.airbus.com/aircraftfamilies/corporate/acj-family/acj350/)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [A388](../assets/aircraft/A388.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 10
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 4
+- `speed.min` : back-calculated from Approach Speed
+- `speed.cruise` : 0.85M @ FL430 = 488
+- `speed.max` : 0.89M @ FL430 = 511
+- `speed.maxM` : updated to 0.89, [Airbus A380 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a380family/specifications/)
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
