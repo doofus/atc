@@ -1,34 +1,34 @@
 {
-  "name": "Antonov 24",
+  "name": "Antonov An-24",
   "icao": "AN24",
   "engines": {
     "number": 2,
     "type": "T"
   },
-  "weightclass": "L",
+  "weightclass": "M",
   "category": {
     "srs": 3,
     "lahso": null,
-    "recat": "D"
+    "recat": "B"
   },
-  "ceiling": 27500,
+  "ceiling": 28000,
   "rate": {
-    "climb":      1500,
+    "climb":      1000,
     "descent":    1500,
     "accelerate": 6,
     "decelerate": 4
   },
   "runway": {
-    "takeoff": 1.750,
-    "landing": 1.590
+    "takeoff": 0.900,
+    "landing": 0.900
   },
   "speed":{
-    "min":     125,
-    "landing": 130,
-    "cruise":  242,
-    "cruiseM": null,
+    "min":     110,
+    "landing": 120,
+    "cruise":  240,
+    "cruiseM": 0.404,
     "max":     269,
-    "maxM":    null
+    "maxM":    0.452
   },
   "capability": {
     "ils": true,

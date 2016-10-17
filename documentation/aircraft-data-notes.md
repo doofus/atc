@@ -32,7 +32,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as null
 - `rate.accelerate` : unavailable, left as 4
 - `rate.decelerate` : unavailable, left as 2
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : updated to 467, [Wikipedia](https://en.wikipedia.org/wiki/Antonov_An-124_Ruslan)
 - `speed.maxM` : unavailable, left as null
 - `capability.ils` : unavailable, left as true
@@ -57,8 +56,8 @@ descriptions of the data fields.
 - `speed.min`: unavailable, left as 90
 - `speed.landing` : unavailable, left as 111
 - `speed.cruise` : left as 440, [doc8643.com](https://doc8643.com/aircraft/A148)
-- `speed.cruiseM` : unavailable, left as null
-- `speed.max` : left as 470, [Antonov](http://www.antonov.com/aircraft/passenger-aircraft/an-148/an-148-aircraft-family-performan)
+- `speed.cruiseM` : 440 kts @ FL400 = 0.77M
+- `speed.max` : 470 kts @ FL400 = 0.82M [Antonov](http://www.antonov.com/aircraft/passenger-aircraft/an-148/an-148-aircraft-family-performan)
 - `speed.maxM` : unavailable, left as null
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
@@ -69,7 +68,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 7
 - `rate.accelerate` : unavailable, left as 8
 - `rate.decelerate` : unavailable, left as 4
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.82M @ FL370 = 470
 - `speed.maxM` : left as 0.82, [EASA TCDS](https://www.easa.europa.eu/system/files/dfu/TCDS_EASA_A_172_AIRBUS_A300_A310_A300-600_Iss_01_20140430.pdf)
 - `capability.ils` : unavailable, left as true
@@ -81,7 +79,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 7
 - `rate.accelerate` : unavailable, left as 4
 - `rate.decelerate` : unavailable, left as 3
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.84M @ FL400 = 482
 - `speed.maxM` : left as 0.84, [EASA TCDS](https://www.easa.europa.eu/system/files/dfu/TCDS_EASA_A_172_AIRBUS_A300_A310_A300-600_Iss_01_20140430.pdf)
 - `capability.ils` : unavailable, left as true
@@ -93,7 +90,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 7
 - `rate.accelerate` : unavailable, left as 7
 - `rate.decelerate` : unavailable, left as 4
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.82M @ FL410 = 470
 - `speed.maxM` : updated to 0.82, [FAA TCDS A28NM Rev. 24](http://www.airweb.faa.gov/Regulatory_and_Guidance_Library/rgMakeModel.nsf/0/57529f07d8f6e3b58625800d0057c1d4/$FILE/A28NM_Rev24.pdf)
 - `capability.ils` : unavailable, left as true
@@ -105,7 +101,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 7
 - `rate.accelerate` : unavailable, left as 6.5
 - `rate.decelerate` : unavailable, left as 4
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.82M @ FL390 = 470
 - `speed.maxM` : updated to 0.82, [FAA TCDS A28NM Rev. 24](http://www.airweb.faa.gov/Regulatory_and_Guidance_Library/rgMakeModel.nsf/0/57529f07d8f6e3b58625800d0057c1d4/$FILE/A28NM_Rev24.pdf)
 - `capability.ils` : unavailable, left as true
@@ -119,7 +114,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 7
 - `rate.accelerate` : unavailable, left as 7
 - `rate.decelerate` : unavailable, left as 4
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.82M @ FL410 = 470
 - `speed.maxM` : updated to 0.82, [FAA TCDS A28NM Rev. 24](http://www.airweb.faa.gov/Regulatory_and_Guidance_Library/rgMakeModel.nsf/0/57529f07d8f6e3b58625800d0057c1d4/$FILE/A28NM_Rev24.pdf)
 - `capability.ils` : unavailable, left as true
@@ -133,7 +127,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 7
 - `rate.accelerate` : unavailable, left as 6
 - `rate.decelerate` : unavailable, left as 4
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.82M @ FL410 = 470
 - `speed.maxM` : updated to 0.82, [FAA TCDS A28NM Rev. 24](http://www.airweb.faa.gov/Regulatory_and_Guidance_Library/rgMakeModel.nsf/0/57529f07d8f6e3b58625800d0057c1d4/$FILE/A28NM_Rev24.pdf)
 - `capability.ils` : unavailable, left as true
@@ -145,7 +138,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 8
 - `rate.accelerate` : unavailable, left as 6
 - `rate.decelerate` : unavailable, left as 3.5
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.86M @ FL430 = 493
 - `speed.maxM` : updated to 0.86, [Airbus A332 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a330family/a330-200/specifications/)
 - `capability.ils` : unavailable, left as true
@@ -157,7 +149,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 8
 - `rate.accelerate` : unavailable, left as 6
 - `rate.decelerate` : unavailable, left as 3.5
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.86M @ FL410 = 493
 - `speed.maxM` : updated to 0.86, [Airbus A333 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a330family/a330-300/specifications/)
 - `capability.ils` : unavailable, left as true
@@ -169,7 +160,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 9
 - `rate.accelerate` : unavailable, left as 4
 - `rate.decelerate` : unavailable, left as 3
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.86M @ FL430 = 493
 - `speed.maxM` : updated to 0.86, [Airbus A342 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a340family/a340-200/specifications/)
 - `capability.ils` : unavailable, left as true
@@ -181,7 +171,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 9
 - `rate.accelerate` : unavailable, left as 4
 - `rate.decelerate` : unavailable, left as 3
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.86M @ FL430 = 493
 - `speed.maxM` : updated to 0.86, [Airbus A343 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a340family/a340-300/specifications/)
 - `capability.ils` : unavailable, left as true
@@ -193,7 +182,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 9
 - `rate.accelerate` : unavailable, left as 4
 - `rate.decelerate` : unavailable, left as 3
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.86M @ FL430 = 493
 - `speed.maxM` : updated to 0.86, [Airbus A345 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a340family/a340-500/specifications/)
 - `capability.ils` : unavailable, left as true
@@ -205,7 +193,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 9
 - `rate.accelerate` : unavailable, left as 6
 - `rate.decelerate` : unavailable, left as 4
-- `speed.min` : back-calculated from Approach Speed
 - `speed.max` : 0.86M @ FL430 = 493
 - `speed.maxM` : updated to 0.86, [Airbus A346 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a340family/a340-600/specifications/)
 - `capability.ils` : unavailable, left as true
@@ -217,8 +204,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 9
 - `rate.accelerate` : unavailable, left as 6
 - `rate.decelerate` : unavailable, left as 4
-- `speed.min` : back-calculated from Approach Speed
-- `speed.cruise` : 0.85M @ FL430 = 488
 - `speed.max` : 0.89M @ FL430 = 511
 - `speed.maxM` : updated to 0.89, [Airbus ACJ350 Specifications](http://www.airbus.com/aircraftfamilies/corporate/acj-family/acj350/)
 - `capability.ils` : unavailable, left as true
@@ -230,7 +215,6 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as 10
 - `rate.accelerate` : unavailable, left as 6
 - `rate.decelerate` : unavailable, left as 4
-- `speed.min` : back-calculated from Approach Speed
 - `speed.cruise` : 0.85M @ FL430 = 488
 - `speed.max` : 0.89M @ FL430 = 511
 - `speed.maxM` : updated to 0.89, [Airbus A380 Specifications](http://www.airbus.com/aircraftfamilies/passengeraircraft/a380family/specifications/)
@@ -243,8 +227,95 @@ descriptions of the data fields.
 - `category.lahso` : unavailable, left as null
 - `rate.accelerate` : unavailable, left as 5
 - `rate.decelerate` : unavailable, left as 4
-- `speed.min` : back-calculated from Approach Speed
+- `speed.cruiseM` : 310 kts @ FL330 = 0.533M
 - `speed.max` : updated to 348, [Global Security](http://www.globalsecurity.org/military/world/russia/an-12-specs.htm)
-- `speed.maxM` : unavailable, left as null
+- `speed.maxM` : 348 kts @ FL330 = 0.598
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [AN24](../assets/aircraft/an24.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as null
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 4
+- `speed.cruiseM` : 240 kts @ FL280 = 0.404M
+- `speed.max` : unavailable, left as 269
+- `speed.maxM` : 269 kts @ FL280 = 0.452M
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [AN72](../assets/aircraft/an72.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as null
+- `rate.accelerate` : unavailable, left as 8
+- `rate.decelerate` : unavailable, left as 4
+- `speed.max` : updated to 378, [Wikipedia](https://en.wikipedia.org/wiki/Antonov_An-72)
+- `speed.maxM` : 378 kts @ FL380 = 0.66M
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [AT43](../assets/aircraft/at43.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 3
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 6
+- `speed.cruiseM` : 255 kts @ FL250 = 0.424M
+- `speed.max` : updated to 266, [ATR 42-300 Brochure](http://www.atraircraft.com/products_app/media/pdf/FAMILY_septembre2014.pdf)
+- `speed.maxM` : 266 kts @ FL250 = 0.442M
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [AT45](../assets/aircraft/at45.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 3
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 6
+- `speed.cruiseM` : 255 kts @ FL260 = 0.424M
+- `speed.max` : updated to 300, [ATR 42-500 Brochure](http://www.atraircraft.com/products_app/media/pdf/FAMILY_septembre2014.pdf)
+- `speed.maxM` : 300 kts @ FL260 = 0.50M
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [AT72](../assets/aircraft/at72.json)
+
+**Serveral varaiants of the ATR 72 exist.  The ATR 72-500 model is used here**
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 3
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 5
+- `speed.cruiseM` : 275 kts @ FL250 = 0.457M
+- `speed.max` : updated to 275, [ATR 72-500 Brochure](http://www.atraircraft.com/products_app/media/pdf/FAMILY_septembre2014.pdf)
+- `speed.maxM` : 275 kts @ FL250 = 0.457M
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [AT76](../assets/aircraft/at76.json)
+
+No entry exists in the Eurocontrol Aircraft Performance Database.  Data from
+the AT72 is used and augmented by the [ATR 72-600 Brochure](http://www.atraircraft.com/products_app/media/pdf/FAMILY_septembre2014.pdf).
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 3
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 5
+- `speed.cruiseM` : 275 kts @ FL250 = 0.457M
+- `speed.max` : updated to 275, [ATR 72-600 Brochure](http://www.atraircraft.com/products_app/media/pdf/FAMILY_septembre2014.pdf)
+- `speed.maxM` : 275 kts @ FL250 = 0.457M
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B74S](../assets/aircraft/b74s.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 3
+- `rate.accelerate` : unavailable, left as 4
+- `rate.decelerate` : unavailable, left as 2
+- `speed.max` : updated to 528, [Wikipedia](https://en.wikipedia.org/wiki/Boeing_747SP#Specifications)
+- `speed.maxM` : updated to 0.92, [Wikipedia](https://en.wikipedia.org/wiki/Boeing_747SP#Specifications)
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true

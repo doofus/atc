@@ -23,11 +23,11 @@
     "landing": 0.500
   },
   "speed":{
-    "min":     94,
+    "min":     130,
     "landing": 122,
     "cruise":  310,
-    "cruiseM": null,
-    "max":     348,
+    "cruiseM": 0.533,
+    "max":     0.598,
     "maxM":    null
   },
   "capability": {

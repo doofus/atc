@@ -5,7 +5,14 @@ title: Aircraft Format Wiki
 
 [!image](http://puu.sh/o6oee/00a63d977a.png)
 
-Link for useful aircraft performance data: https://doc8643.com/index
+[The Eurocontrol Aircraft Performance Database](https://contentzone.eurocontrol.int/aircraftperformance/default.aspx?)
+is used as the primary source for techincal data and performance data for
+aircraft types.  
+Any gaps in the data from the Eurocontrol Aircraft Performance Database should
+then be sourced from the aircraft manufacturer and annotated in [aircraft-data-notes.md](./aircraft-data-notes.md).
+If data from the manufacturer is not available, then another source may be used.
+This source should also be annotated in [aircraft-data-notes.md](./aircraft-data-notes.md).  
+If any gaps are still unresolved, then they should be annotated in [aircraft-data-notes.md](./aircraft-data-notes.md).
 
 ## Example Aircraft File
 
@@ -34,7 +41,7 @@ Link for useful aircraft performance data: https://doc8643.com/index
     "landing": 2.072    - Landing Distance Required² (km)
   },
   "speed":{
-    "min":     135,   - Stall Speed² (minimum speed)
+    "min":     135,   - Takeoff Speed² (V<sub>2</sub>)
     "landing": 150,   - Landing speed² (at threshold) or Approach Speed (Vat); usually 1.3 times the Stall Speed
     "cruise":  492    - Typical cruise speed², knots (a/c will fly at slower of these speeds)
     "cruiseM": 0.81,  - Typical cruise speed², mach  (a/c will fly at slower of these speeds) if unavailable, put null
@@ -52,7 +59,7 @@ Link for useful aircraft performance data: https://doc8643.com/index
 ## Notes
 
 ¹ Available in FAA JO 7110.65V, Appendix A (http://www.faa.gov/documentLibrary/media/Order/7110.65V.pdf)
-² May be available from Wikipedia, or https://doc8643.com/index , or other internet sources
+² May be available from [Eurocontrol](https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?), aircraft manufacturer, Wikipedia, or other sources.
 ³ See FAA JO 7110.659B (http://www.faa.gov/documentLibrary/media/Order/Final_Wake_Recat_Order.pdf)
   and look up aircraft's MTOW (Max Certified Gross Takeoff Weight) and wingspan. Compare those
   values to the ranges listed in FAA JO 7110.659B, "Aircraft Wake Categories" section within the

@@ -23,7 +23,7 @@
     "landing": 1.532
   },
   "speed":{
-    "min":     107,
+    "min":     160,
     "landing": 139,
     "cruise":  470,
     "cruiseM": 0.79,
