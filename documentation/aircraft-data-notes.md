@@ -319,3 +319,36 @@ the AT72 is used and augmented by the [ATR 72-600 Brochure](http://www.atraircra
 - `speed.maxM` : updated to 0.92, [Wikipedia](https://en.wikipedia.org/wiki/Boeing_747SP#Specifications)
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
+
+## [B77L](../assets/aircraft/b77l.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 3.5
+- `speed.max` : 0.89M @ FL431 = 511 kts
+- `speed.maxM` : updated to 0.89 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_777#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B77W](../assets/aircraft/b77w.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 3.5
+- `speed.max` : 0.89M @ FL431 = 511 kts
+- `speed.maxM` : updated to 0.89 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_777#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B712](../assets/aircraft/b712.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 5
+- `rate.decelerate` : unavailable, left as 5
+- `speed.max` : unavailable, set to cruise speed
+- `speed.maxM` : unavailable, set to cruise speed
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true

@@ -1,34 +1,34 @@
 {
-  "name": "Boeing 717",
+  "name": "Boeing 717-200",
   "icao": "B712",
   "engines": {
     "number": 2,
     "type": "J"
   },
-  "weightclass": "L",
+  "weightclass": "M",
   "category": {
     "srs": 3,
     "lahso": 7,
-    "recat": "D"
+    "recat": "C"
   },
   "ceiling": 37000,
   "rate": {
-    "climb":      1215,
-    "descent":    1430,
+    "climb":      3000,
+    "descent":    1500,
     "accelerate": 7,
     "decelerate": 5
   },
   "runway": {
-    "takeoff": 1.8,
-    "landing": 2.3
+    "takeoff": 2.100,
+    "landing": 1.600
   },
   "speed":{
-    "min":     110,
-    "landing": 125,
-    "cruise":  437,
-    "cruiseM": 0.77,
-    "max":     500,
-    "maxM":    null
+    "min":     130,
+    "landing": 139,
+    "cruise":  435,
+    "cruiseM": 0.76,
+    "max":     435,
+    "maxM":    0.76
   },
   "capability": {
     "ils": true,
