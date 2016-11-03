@@ -600,3 +600,30 @@ the AT72 is used and augmented by the [ATR 72-600 Brochure](http://www.atraircra
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as false
 
+## [BN2P](../assets/aircraft/bn2p.json)
+
+** No entry in Eurocontrol Database. Using manufacturer data from [Britten Norman](http://www.britten-norman.com/media/uploads/bn-islander-brochure.pdf) as the BN2B-26 variant. **
+
+- `category.srs` : left as 2, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 1
+- `rate.accelerate` : unavailable, left as 4
+- `rate.decelerate` : unavailable, left as 3
+- `rate.descent` : unavailable, left as 900
+- `speed.min` : using manufacturer data for Stall Speed (Flaps up, power off) = 50 kts
+- `speed.landing` : using manufacturer data for Stall Speed (Flaps down, power off) = 40kts
+- `speed.cruiseM` : unavailable, left as null
+- `speed.maxM` : unavailable, left as null
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [C130](../assets/aircraft/c130.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as null
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 5
+- `speed.max` : updated to 320 [Wikipedia](https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules#Specifications_.28C-130H.29)
+- `speed.maxM` : unavailable, left as null
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as false true
+

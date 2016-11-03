@@ -5,29 +5,29 @@
     "number": 4,
     "type": "T"
   },
-  "weightclass": "L",
+  "weightclass": "M",
   "category": {
     "srs": 3,
     "lahso": null,
-    "recat": "D"
+    "recat": "C"
   },
-  "ceiling": 33000,
+  "ceiling": 29000,
   "rate": {
-    "climb":      1500,
-    "descent":    1670,
+    "climb":      1000,
+    "descent":    1500,
     "accelerate": 7,
     "decelerate": 5
   },
   "runway": {
-    "takeoff": 1.905,
-    "landing": 1.478
+    "takeoff": 1.100,
+    "landing": 0.800
   },
   "speed":{
     "min":     120,
-    "landing": 125,
-    "cruise":  300,
-    "cruiseM": null,
-    "max":     325,
+    "landing": 130,
+    "cruise":  290,
+    "cruiseM": 0.57,
+    "max":     320,
     "maxM":    null
   },
   "capability": {
