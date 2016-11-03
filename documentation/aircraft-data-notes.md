@@ -309,6 +309,237 @@ the AT72 is used and augmented by the [ATR 72-600 Brochure](http://www.atraircra
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
+## [B712](../assets/aircraft/b712.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 5
+- `rate.decelerate` : unavailable, left as 5
+- `speed.max` : unavailable, set to cruise speed
+- `speed.maxM` : unavailable, set to cruise speed
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B722](../assets/aircraft/b722.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 5
+- `speed.max` : 0.90M @ FL400 = 516 kts
+- `speed.maxM` : updated to 0.90 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_727#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B732](../assets/aircraft/b732.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 5
+- `rate.decelerate` : unavailable, left as 3
+- `speed.max` : 0.82M @ FL370 = 470 kts
+- `speed.maxM` : updated to 0.82 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_737#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B733](../assets/aircraft/b733.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 3
+- `speed.max` : 0.82M @ FL370 = 470 kts
+- `speed.maxM` : updated to 0.82 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_737_Classic#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B734](../assets/aircraft/b734.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 8
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 3
+- `speed.max` : 0.82M @ FL370 = 470 kts
+- `speed.maxM` : updated to 0.82 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_737_Classic#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B735](../assets/aircraft/b735.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 5
+- `speed.max` : 0.82M @ FL370 = 470 kts
+- `speed.maxM` : updated to 0.82 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_737_Classic#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B736](../assets/aircraft/b736.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 3
+- `speed.max` : 0.825M @ FL410 = 473 kts
+- `speed.maxM` : updated to 0.825 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_737_Next_Generation#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B737](../assets/aircraft/b737.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 8
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 3
+- `speed.max` : 0.825M @ FL410 = 473 kts
+- `speed.maxM` : updated to 0.825 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_737_Next_Generation#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B738](../assets/aircraft/b738.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 3
+- `speed.max` : 0.825M @ FL410 = 473 kts
+- `speed.maxM` : updated to 0.825 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_737_Next_Generation#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B739](../assets/aircraft/b739.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 3
+- `speed.max` : 0.825M @ FL410 = 473 kts
+- `speed.maxM` : updated to 0.825 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_737_Next_Generation#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B741](../assets/aircraft/b741.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 10
+- `rate.accelerate` : unavailable, left as 4
+- `rate.decelerate` : unavailable, left as 2
+- `speed.max` : 0.92M @ FL450 = 528 kts
+- `speed.maxM` : updated to 0.92 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_747#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B742](../assets/aircraft/b742.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 10
+- `rate.accelerate` : unavailable, left as 4
+- `rate.decelerate` : unavailable, left as 2
+- `speed.max` : 0.92M @ FL450 = 528 kts
+- `speed.maxM` : updated to 0.92 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_747#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B744](../assets/aircraft/b744.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 10
+- `rate.accelerate` : unavailable, left as 4
+- `rate.decelerate` : unavailable, left as 2
+- `speed.max` : 0.92M @ FL450 = 528 kts
+- `speed.maxM` : updated to 0.92 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_747#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B748](../assets/aircraft/b748.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 10
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 3
+- `speed.max` : 0.90M @ FL450 = 516 kts
+- `speed.maxM` : updated to 0.90 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_747-8#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B752](../assets/aircraft/b752.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 8
+- `rate.decelerate` : unavailable, left as 4
+- `speed.max` : 0.86M @ FL420 = 493 kts
+- `speed.maxM` : updated to 0.86 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_757#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B753](../assets/aircraft/b753.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 8
+- `rate.accelerate` : unavailable, left as 8
+- `rate.decelerate` : unavailable, left as 4
+- `speed.max` : 0.86M @ FL420 = 493 kts
+- `speed.maxM` : updated to 0.86 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_757#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B762](../assets/aircraft/b762.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 4
+- `speed.max` : updated to 486 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_767#Specifications)
+- `speed.maxM` : 486 kts @ FL390 = 0.847M
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B763](../assets/aircraft/b763.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 4
+- `speed.max` : updated to 486 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_767#Specifications)
+- `speed.maxM` : 486 kts @ FL390 = 0.847M
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B764](../assets/aircraft/b764.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 8
+- `rate.decelerate` : unavailable, left as 4
+- `speed.max` : updated to 486 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_767#Specifications)
+- `speed.maxM` : 486 kts @ FL390 = 0.847M
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B772](../assets/aircraft/b772.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 6
+- `rate.decelerate` : unavailable, left as 3.5
+- `speed.max` : 0.89M @ FL430 = 511 kts
+- `speed.maxM` : updated to 0.89 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_777#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
+## [B773](../assets/aircraft/b773.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 9
+- `rate.accelerate` : unavailable, left as 5.5
+- `rate.decelerate` : unavailable, left as 3.2
+- `speed.max` : 0.89M @ FL430 = 511 kts
+- `speed.maxM` : updated to 0.89 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_777#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
+
 ## [B74S](../assets/aircraft/b74s.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
@@ -342,24 +573,17 @@ the AT72 is used and augmented by the [ATR 72-600 Brochure](http://www.atraircra
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [B712](../assets/aircraft/b712.json)
+## [B788](../assets/aircraft/b788.json)
 
 - `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
 - `category.lahso` : unavailable, left as 7
-- `rate.accelerate` : unavailable, left as 5
-- `rate.decelerate` : unavailable, left as 5
-- `speed.max` : unavailable, set to cruise speed
-- `speed.maxM` : unavailable, set to cruise speed
+- `rate.accelerate` : unavailable, left as 7
+- `rate.decelerate` : unavailable, left as 4
+- `speed.max` : 0.89M @ FL430 = 511 kts
+- `speed.maxM` : updated to 0.89 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_787_Dreamliner#Specifications)
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
 
-## [B722](../assets/aircraft/b722.json)
+## [B789](../assets/aircraft/b789.json)
 
-- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
-- `category.lahso` : unavailable, left as 7
-- `rate.accelerate` : unavailable, left as 5
-- `rate.decelerate` : unavailable, left as 5
-- `speed.max` : 0.90M @ FL400 = 516 kts
-- `speed.maxM` : updated to 0.90 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_727#Specifications)
-- `capability.ils` : unavailable, left as true
-- `capability.fix` : unavailable, left as true
+** No entry in Eurocontrol Database.  Reusing B788 data. **

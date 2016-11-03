@@ -1,5 +1,5 @@
 {
-  "name": "Boeing 747-8i",
+  "name": "Boeing 747-8I",
   "icao": "B748",
   "engines": {
     "number": 4,
@@ -9,26 +9,26 @@
   "category": {
     "srs": 3,
     "lahso": 10,
-    "recat": "B"
+    "recat": "D"
   },
-  "ceiling": 45000,
+  "ceiling": 43000,
   "rate": {
-    "climb":      2500,
-    "descent":    3000,
+    "climb":      2000,
+    "descent":    1500,
     "accelerate": 6,
     "decelerate": 3
   },
   "runway": {
-    "takeoff": 3.352,
-    "landing": 2.072
+    "takeoff": 3.190,
+    "landing": 2.680
   },
   "speed":{
-    "min":     130,
+    "min":     175,
     "landing": 145,
-    "cruise":  495,
+    "cruise":  510,
     "cruiseM": 0.855,
-    "max":     533,
-    "maxM":    0.92
+    "max":     516,
+    "maxM":    0.90
   },
   "capability": {
     "ils": true,

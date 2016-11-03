@@ -5,30 +5,30 @@
     "number": 2,
     "type": "J"
   },
-  "weightclass": "L",
+  "weightclass": "M",
   "category": {
     "srs": 3,
     "lahso": 7,
-    "recat": "D"
+    "recat": "C"
   },
   "ceiling": 37000,
   "rate": {
-    "climb":      2335,
-    "descent":    2000,
+    "climb":      1200,
+    "descent":    1500,
     "accelerate": 5,
     "decelerate": 3
   },
   "runway": {
-    "takeoff": 2.200,
-    "landing": 1.350
+    "takeoff": 1.830,
+    "landing": 1.400
   },
   "speed":{
-    "min":     140,
-    "landing": 130,
-    "cruise":  430,
-    "cruiseM": null,
-    "max":     509,
-    "maxM":    null
+    "min":     145,
+    "landing": 131,
+    "cruise":  400,
+    "cruiseM": 0.72,
+    "max":     470,
+    "maxM":    0.82
   },
   "capability": {
     "ils": true,
