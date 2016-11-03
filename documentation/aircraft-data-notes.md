@@ -587,3 +587,16 @@ the AT72 is used and augmented by the [ATR 72-600 Brochure](http://www.atraircra
 ## [B789](../assets/aircraft/b789.json)
 
 ** No entry in Eurocontrol Database.  Reusing B788 data. **
+
+## [BE36](../assets/aircraft/be36.json)
+
+- `category.srs` : left as 1, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 2
+- `rate.accelerate` : unavailable, left as 4
+- `rate.decelerate` : unavailable, left as 3
+- `speed.max` : updated to 176 [Beechcraft](http://beechcraft.txtav.com/~/media/beechcraft/files/litho/bonanza_g36_productcard.ashx)
+- `speed.cruiseM` : unavailable, left as null
+- `speed.maxM` : unavailable, left as null
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as false
+
