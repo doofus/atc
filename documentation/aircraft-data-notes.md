@@ -352,3 +352,14 @@ the AT72 is used and augmented by the [ATR 72-600 Brochure](http://www.atraircra
 - `speed.maxM` : unavailable, set to cruise speed
 - `capability.ils` : unavailable, left as true
 - `capability.fix` : unavailable, left as true
+
+## [B722](../assets/aircraft/b722.json)
+
+- `category.srs` : left as 3, agrees with [FAA JO 7110.65W](https://www.faa.gov/documentLibrary/media/Order/ATC.pdf)
+- `category.lahso` : unavailable, left as 7
+- `rate.accelerate` : unavailable, left as 5
+- `rate.decelerate` : unavailable, left as 5
+- `speed.max` : 0.90M @ FL400 = 516 kts
+- `speed.maxM` : updated to 0.90 [Wikipedia](https://en.wikipedia.org/wiki/Boeing_727#Specifications)
+- `capability.ils` : unavailable, left as true
+- `capability.fix` : unavailable, left as true
